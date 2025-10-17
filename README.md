@@ -10,7 +10,7 @@ tar -xvzf php-8.1.29.tar.gz
 cd php-8.1.29
 
 
-./configure --prefix=/usr/local/php8.1 --with-openssl --with-zlib --enable-mbstring --enable-bcmath --enable-ftp --enable-exif --enable-intl --enable-soap --enable-zip --with-
+./configure --prefix=/usr/local/php8.1 --with-openssl --with-zlib --enable-mbstring --enable-bcmath --enable-ftp --enable-exif --enable-intl --enable-soap --enable-zip --with-curl --with-gettext --with-gd --with-mysqli --with-pdo-mysql --enable-fpm
 
 curl --with-gettext --with-gd --with-mysqli --with-pdo-mysql --enable-fpm
 
